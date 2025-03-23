@@ -30,7 +30,7 @@ app.use(rootRouter);
 
 app.use(handleError);
 
-// socket client - server
+//        socket client - server
 const httpServer = createServer(app);
 
 initSocket(httpServer);
